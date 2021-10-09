@@ -1,0 +1,112 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#mu-menu {
+  display: block;
+  float: initial;
+}
+
+#mu-menu .navbar-default .navbar-nav li > a,
+#mu-menu .navbar-default .navbar-nav li.active > a,
+#mu-menu .navbar-default .navbar-nav li.active > a:hover {
+  border-bottom: none;
+}
+
+#mu-menu .navbar-default .navbar-nav li > a {
+  color: #0a1820;
+}
+
+#mu-contact-sales {
+  margin: 60px 0px 80px;
+  background-image: url(../img/slider/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#mu-contact-sales h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#mu-contact-sales #contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  width: 70%;
+  gap: 30px;
+  height: auto;
+  margin: 0px auto;
+}
+
+#mu-contact-sales #contact-container #form-container {
+  flex: 2;
+  background: #fcfdfd;
+  box-shadow: 0px 1px 4px rgba(0, 153, 255, 0.24);
+  border: 0px;
+  border-radius: 5px;
+  padding: 2em 2.5em;
+  width: 100%;
+}
+
+#mu-contact-sales #contact-container #form-container .form-ctrl {
+  margin-bottom: 1.2em;
+}
+
+#mu-contact-sales #contact-container #form-container .form-ctrl label {
+  color: #0a1820;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#mu-contact-sales #contact-container #form-container .form-ctrl.radio label {
+  display: inline-block;
+}
+
+#mu-contact-sales #contact-container #form-container .form-ctrl input,
+#mu-contact-sales #contact-container #form-container .form-ctrl textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #0a1820;
+}
+
+#mu-contact-sales #contact-container #form-container .form-ctrl.radio input {
+  display: inline;
+}
+
+#mu-contact-sales #contact-container #form-container .button {
+  padding: 12px 3em;
+}
+
+#mu-contact-sales #contact-sidebar {
+  flex: 1;
+  padding: initial;
+  width: auto;
+}
+
+#mu-contact-sales #contact-sidebar > p {
+  font-size: 18px;
+}
+
+#mu-contact-sales #contact-sidebar ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  #mu-contact-sales #contact-container {
+    flex-direction: column;
+    width: auto;
+    margin: 0 15px;
+    gap: 40px;
+  }
+
+  #mu-contact-sales #contact-sidebar {
+    width: 100%;
+  }
+}
